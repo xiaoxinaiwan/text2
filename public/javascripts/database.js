@@ -1,5 +1,5 @@
 const mongoClient = require('mongodb').MongoClient
-const dbAddress = 'mongodb://58.87.85.48'
+const dbAddress = 'mongodb://localhost'
 const database = {
 	//数据库查询
 	async queryData(dbname,collection,condition){
